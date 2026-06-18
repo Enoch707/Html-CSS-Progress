@@ -1,0 +1,23 @@
+header{
+    background-color: black;
+}
+.me{
+    color: beige;
+    font-size: 25px;   
+}
+main{
+    background-color: rgb(50, 50, 49);
+    color: rgb(153, 148, 148);
+    font-size: 20px;
+}
+html{
+    background-color: rgb(50, 50, 49);
+}
+footer{
+    background-color: black;
+    color: beige;
+    font-size: 20px;
+}
+hr{
+    border: 1px solid rgb(224, 31, 31);
+}
