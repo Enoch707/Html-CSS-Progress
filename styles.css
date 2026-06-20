@@ -1,0 +1,23 @@
+@font-face{
+    src: url(fonts/Inter_18pt-ExtraBoldItalic.ttf);
+    font-family: inter2;
+}
+body{
+    background-color: rgb(41, 41, 41);
+}
+main{
+    color: azure; font-family: Courier New, Courier, monospace,arial  ;
+    font-size: 2em;
+    font-weight: bolder;
+    font-style: italic;
+}
+header{
+    color: bisque; font-family:'Inter', Verdana, arial, Tahoma, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    border-style: outset;
+    border-width: 0.4em;
+    border-color: rgb(11, 11, 11);
+    border-radius: 2;
+
+}

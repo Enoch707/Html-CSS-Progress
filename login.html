@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: black;">
 <head>
     <link rel="stylesheet" href="style2.css">
     <link rel="icon" type="images/webp" href="images/th.webp">
@@ -10,12 +10,17 @@
 <body>
     <header><h3 class="me">Login</h3>
     <form>
-        <label>
+        <label for="username" style="color: azure;">
             Username:
-            <input type="text" name="username">
+            <input type="text" name="username" id="username" placeholder="ENOCH" minlength="4" maxlength="10">
             <br>
         </label>
-        <label></label>
+        <label for="password" style="color: beige;">
+            password:
+            <input type="password" name="password" id="password" required maxlength="10" minlength="5">
+        </label><br>
+        <input type="submit"><br>
+        <input type="reset">
 
     </form>
 </header>
